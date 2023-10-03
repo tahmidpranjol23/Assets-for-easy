@@ -49,7 +49,8 @@ ul , a {
 }
 
 /* preloader end */
-/* back to top */
+
+/* back to top part start*/
 
 .back_to_top{
     position: fixed;
@@ -58,3 +59,32 @@ ul , a {
     display: none;
     z-index: 1;
 } 
+
+.btn-btt{
+    background-color: var(--blue);
+}
+.btn-btt:hover{
+    background-color: white;
+    color: var(--blue);
+    box-shadow: 0px 0px 12.48px 0.52px var(--blue);
+}
+
+/* back to top part end */
+
+/* navbar part start */
+
+.nav-link{
+    font-family: var(--monts);
+    font-size: 15px;
+    color: white;
+}
+
+.nav-link:hover{
+    color: #ee2f1b;
+}
+
+.bg-on-scroll{
+    background-color: var(--blue);
+}
+
+/* navbar part end */
