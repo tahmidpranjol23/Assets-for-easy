@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 p{ 
     color: #777777;
     font-family: 'Noto Sans', sans-serif;
