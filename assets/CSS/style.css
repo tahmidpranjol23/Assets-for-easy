@@ -1,0 +1,35 @@
+/* root css start */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{ 
+    color: #777777;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul , a {
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --black: #111111;
+    --blue: #35c2f8;
+    --h: #222222;
+    --p: #777777;
+    --noto: 'Noto Sans';
+    --monts: 'Montserrat';
+}
+
+/* root css end */
+
